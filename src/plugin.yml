@@ -1,0 +1,10 @@
+name: LinkItUp
+main: com.superiornetworks.linkitup.LinkItUp
+version: 1.0
+authors: [WickedGamingUK]
+description: LinkItUp
+commands:
+    LinkItUp:
+        usage: /<command>
+        description: Displays useful information about Link It Up.
+        aliases: [liu]
