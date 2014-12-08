@@ -27,11 +27,11 @@ public class LinkItUp extends BukkitPlugin
     {
         this.plugin = this;
         this.handler = new BukkitCommandHandler(plugin);        
-        this.config = new YamlConfig(plugin, "config.yml");
+        //this.config = new YamlConfig(plugin, "config.yml");
         this.messageConfig = new YamlConfig(plugin, "messages.yml");
         this.pm = Bukkit.getPluginManager();
         
-        config.load();
+        //config.load();
         messageConfig.load();        
         
         this.messages = new Messages(plugin);        
@@ -48,7 +48,8 @@ public class LinkItUp extends BukkitPlugin
         MessageListener messageListener = new MessageListener(plugin);
         register(messageListener);
         
-        String[] plugins = new String[]{"BarAPI", "HolographicDisplays"};
+        // This will be implmented at a later date possibly...
+       /* String[] plugins = new String[]{"BarAPI", "HolographicDisplays"};
         
         for (String p : plugins)
         {
@@ -56,7 +57,7 @@ public class LinkItUp extends BukkitPlugin
             {
                 LoggerUtils.warning(plugin, p + " is disabled. Some Link It Up functionality will be disabled.");
             }
-        }
+        } */
         
         LoggerUtils.info(plugin, "Link It Up is enabled.");
     }

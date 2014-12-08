@@ -1,7 +1,7 @@
 name: LinkItUp
 main: com.superiornetworks.linkitup.LinkItUp
 version: 1.0
-authors: [WickedGamingUK]
+authors: [WickedGamingUK, Wild1145]
 description: LinkItUp
 commands:
     LinkItUp:
