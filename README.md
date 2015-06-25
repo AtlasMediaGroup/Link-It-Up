@@ -1,6 +1,8 @@
 Link-It-Up
 ==========
 
+[![Join the chat at https://gitter.im/Superior-Development/Link-It-Up](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Superior-Development/Link-It-Up?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The Link It Up Plugin is a light weight plugin designed to allow server owners to dynamicly add links to social media, websites and anything else that you may find of use.
 
 This plugin only includes two commands built in, /linkitup and /linkhelp. More details on these commands can be found as this documentation continues. Information on what the plugin also includes can be seen further down and will be updated as we continue to work on this plugin.
