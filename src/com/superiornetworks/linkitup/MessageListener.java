@@ -1,6 +1,7 @@
 package com.superiornetworks.linkitup;
 
 import java.util.Map;
+import net.pravian.aero.util.ChatUtils;
 import net.pravian.aero.util.Loggers;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -25,7 +26,7 @@ public class MessageListener implements Listener
             if (message.getKey().equalsIgnoreCase(event.getMessage().substring(1)))
             {
                 Loggers.info(message.getValue());
-                event.getPlayer().sendMessage(message.getValue());
+                event.getPlayer().sendMessage(ChatUtils.colorize(message.getValue()));
                 event.setCancelled(true);
             }
         }
