@@ -1,10 +1,7 @@
 name: LinkItUp
 main: com.superiornetworks.linkitup.LinkItUp
-version: 1.0
-authors: [WickedGamingUK, Wild1145]
+version: 2.0
+softdepend: [Aero]
+authors: [Wild1145, WickedGamingUK]
 description: LinkItUp
 commands:
-    LinkItUp:
-        usage: /<command>
-        description: Displays useful information about Link It Up.
-        aliases: [liu]
